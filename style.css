@@ -86,8 +86,8 @@ input[type=range] {
   }
 .thumb{
     display: none !important;
-     background-color: transparent !important;
- }
+    background-color: transparent !important;
+}
   
 /* END OF INPUT */
 .avatar{
@@ -107,6 +107,69 @@ body{
     height: 1000px;
     font-family: Roboto !important;
 }
+
+.section-albums .row .col .card .card-image .modal .modal-footer {
+  background: black
+
+}
+.section-albums .row .col .card .modal-content {
+background: #212121
+
+}
+
+.section-albums .row .col .card .modal-content h5 {
+  color: white; 
+  text-align: center
+  
+  }
+
+  .section-albums .row .col .card .modal-content p {
+    color: white; 
+    text-align: center
+
+  }
+
+  .section-albums .row .col .card .modal-content .row a {
+    left: 1%
+
+  }
+
+  .section-albums .row .col .card .modal-content .row .col .highlight {
+    color: white 
+  
+  }
+
+  .section-albums .row .col .card .card-content{
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    width:100px;
+
+  }
+
+  .section-albums .row .col .card .card-content span h6 {
+    font-size: 55%; color: white
+
+  }
+
+  .section-albums .row .col .card .card-content p {
+    color: #e0e0e0
+
+  }
+
+/* Container holding the image and the text */
+  .section-artists .container .row .col 
+  .modal .modal-content .primary-overlay {
+position: relative;
+text-align: center;
+color: white;
+  }
+
+  .top-left {
+position: absolute;
+top: 8px;
+left: 16px;
+  }
 
 /* FIXED THE FOOTER */
 .bottom-fixed {
@@ -166,7 +229,6 @@ body{
 .tabs-custom .tab a:focus.active {
   /* color:#26a69a !important; */
   /*Custom Text Color While Active*/
- 
   /* background-color:black !important; */
   /*Custom Background Color While Active*/
   background-color: #673AB7 !important;
@@ -211,3 +273,21 @@ a .material-icons:hover{
   top: -40px !important;
   left: -40px !important;
 }
+
+/* Custom Scroller
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} 

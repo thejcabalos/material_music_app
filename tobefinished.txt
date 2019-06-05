@@ -1,0 +1,3 @@
+- search (color)
+- sort by (font & background color)
+- color of indicator on banner
